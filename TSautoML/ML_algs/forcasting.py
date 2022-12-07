@@ -6,10 +6,7 @@ from typing import Any, Callable, Dict, List, Optional
 
 import numpy as np
 import pandas as pd
-from kats.consts import Params, TimeSeriesData
 from TSautoML.cores.TSdata import TSData
-from kats.models.model import Model
-from kats.utils.parameter_tuning_utils import get_default_arima_parameter_search_space
 from statsmodels.tsa.arima_model import ARIMA, ARIMAResults
 import statsmodels.api as sm
 from statsmodels.tsa.ar_model import AutoReg
